@@ -8,7 +8,7 @@ NATION = ENV['NB_NATION']
 EMAIL = ENV['NB_USER']
 PASSWORD = ENV['NB_PASS']
 TAG_PATTERNS_TO_DELETE = [
-  /temp/
+  /temp/i
 ]
 
 begin
